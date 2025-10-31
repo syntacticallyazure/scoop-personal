@@ -9,6 +9,14 @@
         [
             "xFOEdit.exe",
             "FO4Edit"
+        ],
+        [
+            "xFOEdit64.exe",
+            "FO4Edit64"
+        ],
+        [
+            "xFOEdit.exe",
+            "FO4Edit32"
         ]
     ],
     "checkver": {
