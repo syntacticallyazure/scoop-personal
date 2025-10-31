@@ -4,7 +4,7 @@
     "homepage": "https://github.com/TES5Edit/TES5Edit",
     "license": "MPL",
     "url": "https://github.com/TES5Edit/TES5Edit/releases/download/xedit-4.1.5f/xEdit.4.1.5f.7z",
-    "hash": "7e0903ac57326893074147acb2f4b6112b718367aab4b3e8add353d92357605a",
+    "hash": "54c014da621f83f06a64fd92ddb8e32ed3082d1c65f543dc1c4e432130dced08",
     "bin": [
         [
             "xFOEdit.exe",
