@@ -11,5 +11,6 @@
         "Remove-Item -Recurse $dir/NOTICE",
         "Remove-Item -Recurse $dir/aapt2-8.13.1-13719691-windows.jar"
     ],
-    "bin": "aapt2.exe"
+    "bin": "aapt2.exe",
+    "depends": "7zip"
 }
