@@ -1,0 +1,21 @@
+{
+    "version": "0.13.2",
+    "description": "",
+    "homepage": "https://lnav.org/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/tstack/lnav/releases/download/v0.13.2/lnav-0.13.2-windows-x86_64.zip",
+    "hash": "5d0e1a4b4f8ac00093e91749db20972780b2b874cde51640040ce65528923c31",
+    "bin": [
+        "./lnav-0.13.2/bin/lnav.exe",
+        "./lnav-0.13.2/bin/msys-2.0.dll"
+    ],
+    "checkver": {
+        "url": "https://github.com/tstack/lnav/releases"
+    }, "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tstack/lnav/releases/download/v$version/lnav-$version-windows-x86_64.zip"
+            }
+        }
+    }
+}
