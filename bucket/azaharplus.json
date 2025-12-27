@@ -1,0 +1,26 @@
+{
+    "version": "2123.A",
+    "description": "Open source 3DS emulator project based on Citra. Also fork of Azahar.",
+    "homepage": "https://github.com/AzaharPlus/AzaharPlus",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://github.com/AzaharPlus/AzaharPlus/blob/AzaharPlus/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AzaharPlus/AzaharPlus/releases/download/AZAHAR_PLUS_2123_A/azaharplus-2123-A-windows.zip",
+            "hash": "15560b0c4006b3085cd952223ed5d467d89082a130f7faec3429bbb2da4ad2a3"
+        }
+    },
+    "extract_dir": "azaharplus-2123-A-windows",
+    "bin": [
+        [ "azahar.exe", "azaharplus.exe"]
+    ],
+    "shortcuts": [
+        [
+            "azahar.exe",
+            "AzaharPlus"
+        ]
+    ],
+    "persist": "user"
+}
