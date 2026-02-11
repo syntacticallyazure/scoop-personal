@@ -32,7 +32,8 @@
     ],
     "env_add_path": [
         "cmdline-tools\\latest\\bin",
-        "platform-tools"
+        "platform-tools",
+        "emulator"
     ],
     "env_set": {
         "ANDROID_HOME": "$dir"
