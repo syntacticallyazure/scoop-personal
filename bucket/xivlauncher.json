@@ -1,0 +1,26 @@
+{
+    "version": "7.0.20",
+    "description": "Custom launcher for Final Fantasy XIV (FF14)",
+    "homepage": "https://goatcorp.github.io/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/goatcorp/FFXIVQuickLauncher/archive/refs/tags/7.0.20.zip",
+    "hash": "sha256:343cfff134d497a2ce38fd1e1e8677e544b130d0f84a5085eb605a7f7466105b",
+    "extract_dir": "FFXIVQuickLauncher-7.0.20",
+    "checkver": {
+        "github": "https://github.com/goatcorp/FFXIVQuickLauncher"
+    },
+    "pre_install": [
+        "echo '\nBuilding XIVLauncher...'",
+        "Push-Location $dir\\src;",
+        "dotnet build -c Debug /p:BuildHash=$version --disable-build-servers",
+        "Pop-Location;"
+    ],
+    "bin": "./src/XIVLauncher/bin/Debug/XIVLauncher.exe",
+    "shortcuts": [
+        ["./src/XIVLauncher/bin/Debug/XIVLauncher.exe",
+        "XIVLauncher"]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/goatcorp/FFXIVQuickLauncher/archive/refs/tags/$version.zip"
+    }
+}
