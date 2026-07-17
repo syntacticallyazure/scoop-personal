@@ -1,0 +1,20 @@
+{
+    "version": "0.28.5",
+    "description": "Crafting macro solver for Final Fantasy XIV",
+    "homepage": "https://github.com/KonaeAkira/raphael-rs",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/KonaeAkira/raphael-rs/releases/download/v0.28.5/raphael_x86_64_windows.exe",
+    "hash": "sha256:27d6ff7ecd82a5f2cb236718d0fc709b12ae04216aad0a5e4429689543d36439",
+    "checkver": {
+        "github": "https://github.com/KonaeAkira/raphael-rs"
+    },
+    "bin": "raphael_x86_64_windows.exe",
+    "shortcuts": [
+        ["raphael_x86_64_windows.exe",
+        "Raphael"
+    ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/KonaeAkira/raphael-rs/releases/download/v$version/raphael_x86_64_windows.exe"
+    }
+}
