@@ -1,5 +1,5 @@
 {
-    "version": "1.15.0",
+    "version": "1.17.2",
     "description": "A program wrapper that allows for appearing offline with RiotGames' League of Legends and similar games.",
     "homepage": "https://github.com/molenzwiebel/Deceive",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/molenzwiebel/Deceive/releases/download/v1.15.0/Deceive.exe",
-            "hash": "9a534fa34c8800b5c792be0c4ebc5709d1d75bf73fba464cbe37c86727ed19fb"
+            "url": "https://github.com/molenzwiebel/Deceive/releases/download/v1.17.2/Deceive.exe",
+            "hash": "59b644c44b4462f80446cd7c9534a6ae6f1628f13b1897c8b648c34abd49e42a"
         }
     },
     "bin": [["Deceive.exe", "decieve"]],
