@@ -1,5 +1,8 @@
 {
   "version": "nightly",
+    "license": {
+        "identifier": "None"
+    },
   "description": "cli tool that searches current working directory for a gradle installation and prints the version",
   "homepage": "https://github.com/syntacticallyazure/gradlever",
   "url": "https://github.com/syntacticallyazure/gradlever/archive/refs/heads/master.zip",
