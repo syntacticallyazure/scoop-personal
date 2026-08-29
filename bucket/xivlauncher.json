@@ -1,7 +1,7 @@
 {
     "version": "7.0.20",
     "description": "Custom launcher for Final Fantasy XIV (FF14)",
-    "homepage": "https://goatcorp.github.io/",
+    "homepage": "https://github.com/goatcorp/FFXIVQuickLauncher/",
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/goatcorp/FFXIVQuickLauncher/archive/refs/tags/7.0.20.zip",
     "hash": "sha256:343cfff134d497a2ce38fd1e1e8677e544b130d0f84a5085eb605a7f7466105b",
