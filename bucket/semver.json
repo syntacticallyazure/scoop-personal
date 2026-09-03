@@ -1,0 +1,10 @@
+{
+  "version": "nightly",
+    "license": {
+        "identifier": "None"
+    },
+  "description": "cli tool that searches current working directory for a git repository and prints the latest semantic version",
+  "homepage": "https://github.com/syntacticallyazure/semver",
+  "url": "https://github.com/syntacticallyazure/semver/archive/refs/heads/master.zip",
+  "bin": [["./semver-master/semver.cmd", "semver"]]
+}
