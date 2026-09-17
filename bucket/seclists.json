@@ -1,0 +1,9 @@
+{
+    "version": "2026.1",
+    "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments.",
+    "homepage": "https://github.com/danielmiessler/SecLists",
+    "license": "MIT",
+    "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/2026.1.zip",
+    "hash": "fe72b89126070f5b1b32acfa408699e4d1d6a9030380f5ff257735af358c4b31",
+    "extract_dir": "SecLists-2026.1"
+}
